@@ -1,0 +1,111 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+*.mo
+*.pot
+*.log
+local_settings.py
+db.sqlite3
+instance/
+.webassets-cache
+.scrapy
+docs/_build/
+target/
+.ipynb_checkpoints
+.python-version
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Claude
+.claude/
+.claude.json
+.claude.json.backup
+.claude.json.corrupted.*
+.claude.json.tmp.*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+NTUSER.*
+ntuser.*
+
+# Personal directories - exclude everything except project files
+.cisco/
+.igv/
+.imagej/
+.licor/
+.local/
+.matplotlib/
+AppData/
+Contacts/
+Desktop/
+Documents/
+Downloads/
+Favorites/
+IntelGraphicsProfiles/
+Links/
+Mario/
+Music/
+Pictures/
+Saved Games/
+Searches/
+Videos/
+OneDrive*/
+Application Data/
+Cookies/
+Local Settings/
+My Documents/
+NetHood/
+PrintHood/
+Recent/
+SendTo/
+Start Menu/
+Templates/
+
+# Other projects in home directory
+chipdip-pipeline/
+epi2melabs/
+igv/
+miniconda.exe
+python-installer.exe
+
+# Include only these project directories
+!dash_analysis/
+!calculate_overlap_percentage.py
+!requirements.txt
+!README.md
